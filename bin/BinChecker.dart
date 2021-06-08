@@ -86,7 +86,7 @@ void main() {
           io.File(random)
       );
     }
-    await message.reply('<b>Hoi ${message.from.first_name},\nWelcome To IndianBots Bin Checker..'
+    await message.reply('<b>Hoi ${message.from.first_name},\nWelcome To AB Checker Bot❤️.'
         '\n\nAll My Commands Are Here - /commands</b>', parse_mode: 'html');
   });
 
@@ -112,14 +112,14 @@ void main() {
     if (req.toString().contains('ok')) {
       await message.replyPhoto(
           io.File('./bin/logo.png'),
-          caption: '<b>My Source Code Is On Github...\n'
-              'https://github.com/IndianBots/BinChecker/\n'
+          caption: '<b>Join Channel To Use This Bot\n'
+              'https://t.me/AyushBots/\n'
               '\n'
-              'Please Star The Repo For More Support.</b>',
+              'For Any Queries Msg @CyberBoyAyushBot 👨‍💼</b>',
           parse_mode: 'html'
       );
     } else {
-      await message.reply('<b>Join My Channel To See My Source Code\n@IndianBots</b>', parse_mode: 'html');
+      await message.reply('<b>Join My Channel Before Using This Bot\n@AyushBots</b>', parse_mode: 'html');
     }
   });
 
@@ -146,7 +146,7 @@ void main() {
                 'Country : ${data['country']}\n'
                 'Bank : ${data['bank']}\n'
                 '\n'
-                'Checker By : @IndianBots'
+                'Checker By : @AyushBots ✨'
                 '</b>', parse_mode: 'html');
           } else {
             await message.reply('<b>Invalid Bin</b>', parse_mode: 'html');
@@ -159,7 +159,7 @@ void main() {
         await message.reply('<b>Invalid Bin </b><code>${bin}</code>', parse_mode: 'html');
       }
     } else {
-      await message.reply('<b>💘Join My Channel To Use Me\n@IndianBots</b>', parse_mode: 'html');
+      await message.reply('<b>💘Join My Channel To Use Me\n@AyushBots</b>', parse_mode: 'html');
     }
   });
 
@@ -180,7 +180,7 @@ void main() {
           parse_mode: 'html'
       );
     } else {
-      await message.reply('<b>💘Join My Channel To Use Me\n@IndianBots</b>', parse_mode: 'html');
+      await message.reply('<b>💘Join My Channel To Use Me\n@AyushBots</b>', parse_mode: 'html');
     }
 
   });
